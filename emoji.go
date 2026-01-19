@@ -29,6 +29,11 @@ func (e Emoji) String() string {
 	return string(e)
 }
 
+// Convert returns an EmojiWithTone object out of a simple emoji.
+func (e Emoji) Convert() EmojiWithTone {
+	return newEmojiWithTone(e.String())
+}
+
 // EmojiWithTone defines an emoji object that has skin tone options.
 type EmojiWithTone struct {
 	oneTonedCode string
