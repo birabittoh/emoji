@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	emojipkg "github.com/enescakir/emoji"
+	emojipkg "github.com/birabittoh/emoji"
 )
 
 const emojiListURL = "https://unicode.org/Public/emoji/15.1/emoji-test.txt"

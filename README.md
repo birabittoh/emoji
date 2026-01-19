@@ -1,9 +1,9 @@
 # emoji :rocket: :school_satchel: :tada:
-[![Build Status](https://github.com/enescakir/emoji/workflows/build/badge.svg?branch=master)](https://github.com/enescakir/emoji/actions)
-[![godoc](https://godoc.org/github.com/enescakir/emoji?status.svg)](https://godoc.org/github.com/enescakir/emoji)
-[![Go Report Card](https://goreportcard.com/badge/github.com/enescakir/emoji)](https://goreportcard.com/report/github.com/enescakir/emoji)
-[![Codecov](https://img.shields.io/codecov/c/github/enescakir/emoji)](https://codecov.io/gh/enescakir/emoji)
-[![MIT License](https://img.shields.io/github/license/enescakir/emoji)](https://github.com/enescakir/emoji/blob/master/LICENSE)
+[![Build Status](https://github.com/birabittoh/emoji/workflows/build/badge.svg?branch=master)](https://github.com/birabittoh/emoji/actions)
+[![godoc](https://godoc.org/github.com/birabittoh/emoji?status.svg)](https://godoc.org/github.com/birabittoh/emoji)
+[![Go Report Card](https://goreportcard.com/badge/github.com/birabittoh/emoji)](https://goreportcard.com/report/github.com/birabittoh/emoji)
+[![Codecov](https://img.shields.io/codecov/c/github/birabittoh/emoji)](https://codecov.io/gh/birabittoh/emoji)
+[![MIT License](https://img.shields.io/github/license/birabittoh/emoji)](https://github.com/birabittoh/emoji/blob/master/LICENSE)
 
 `emoji` is a minimalistic emoji library for Go. It lets you use emoji characters in strings.
 
@@ -11,7 +11,7 @@ Inspired by [spatie/emoji](https://github.com/spatie/emoji)
 
 ## Install :floppy_disk:
 ``` bash
-go get github.com/enescakir/emoji
+go get github.com/birabittoh/emoji
 ```
 
 ## Usage :surfer:
@@ -21,7 +21,7 @@ package main
 import (
     "fmt"
 
-    "github.com/enescakir/emoji"
+    "github.com/birabittoh/emoji"
 )
 
 func main() {
@@ -93,7 +93,7 @@ Please use [this list](http://unicode.org/emoji/charts/full-emoji-list.html)
 to look up the correct unicode value and the name of the character.
 
 ## Credits :star:
-- [Enes Çakır](https://github.com/enescakir)
+- [Enes Çakır](https://github.com/birabittoh)
 
 ## License :scroll:
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
